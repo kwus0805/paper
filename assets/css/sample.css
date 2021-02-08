@@ -13,14 +13,14 @@
 }
 
 .card-title{
-font-size: 15px;
-margin-bottom: 0.75rem;
-text-align: center;
-color: dimgrey;
+    font-size: 15px;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    color: dimgrey;
 }
 
 .text-group {
-    font-size: small;
+    font-size: small; 
     color: rgb(6, 120, 155);
 }
 
