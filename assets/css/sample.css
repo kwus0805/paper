@@ -24,9 +24,9 @@
     color: rgb(6, 120, 155);
 }
 
-.text-primary {
-
-        color: rgb(104, 59, 29);
+.table-list-text {
+/* 色決める */
+        color:rgb(255, 208, 0);
 }
 
 .card-img-top {
@@ -34,11 +34,7 @@
     height: 10rem;
 }
 
-.card-header.header-info {
-   color: rgb(196, 133, 91);
-   background-color: salmon;
 
-}
 
 .box {
     background-color: rgb(196, 133, 91);
@@ -82,4 +78,24 @@
         background-color: transparent;
         color: #cecc3d;
         text-decoration: none;
-        box-shadow: none; }
+        box-shadow: none;
+        }
+
+        .btn.btn-round.group-new {
+          background-color: #cecc3d;
+          color: #FFFFFF;
+          text-decoration: none;
+          box-shadow: none;
+          border-color: #cecc3d;
+        }
+        .btn.btn-round.group-new:hover,.btn.btn-round.group-new:active,.btn.btn-round.group-new:focus{
+          background-color: transparent;
+          color: tomato;
+          box-shadow: none;
+        }
+        .rounded-circle{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+        }
