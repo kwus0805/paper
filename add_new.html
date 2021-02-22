@@ -22,6 +22,7 @@
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+    <link href="./assets/css/sample.css" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/demo/demo.css" rel="stylesheet" />
   </head>
@@ -164,10 +165,12 @@
         <!-- mainpanel -->
 
         <div class="content">
-          <div class="col-md-8">
+          <div class="col-md-8 mx-auto" style="padding:1em;">
             <div class="card card-user">
               <div class="card-header">
-                <h5 class="card-title">新規連絡先作成</h5>
+                <div class="header-card-new">
+                  <div class="new-addtitle">New address</div>
+                </div>
               </div>
               <div class="card-body">
                 <form>
@@ -182,7 +185,7 @@
 
                   <div class="form-row">
                     <label class="col-sm-3 col-form-label">生年月日</label>
-                    
+
                     <div class="col-sm-9">
                       <p>
                         <select class="custom-select w-25" title="生年月日(西暦)" name="bday-year" autocomplete="bday-year">
@@ -309,7 +312,7 @@
                     <label class="col-sm-3 col-form-label">電話番号</label>
                     <div class="col-md-5">
                       <p>
-                        <input type="tel" name="tel" autocomplete="tel" class="form-control"  />
+                        <input type="tel" name="tel" autocomplete="tel" class="form-control" />
                       </p>
                     </div>
                   </div>
@@ -322,7 +325,7 @@
                           <div class="input-group-text"><i class="nc-icon">〒</i></div>
                         </div>
                         <input type="text" name="zip" onKeyUp="AjaxZip3.zip2addr('zip', '', 'address1', 'address2');"
-                          autocomplete="postal-code" class="form-control" placeholder="郵便番号"  />
+                          autocomplete="postal-code" class="form-control" placeholder="郵便番号" />
                       </div>
                     </div>
                   </div>
@@ -332,15 +335,15 @@
                     <div class="col-sm-9">
                       <p>
                         <input type="text" name="address1" autocomplete="address1" class="form-control"
-                          placeholder="都道府県"  />
+                          placeholder="都道府県" />
                       </p>
                       <p>
                         <input type="text" name="address2" autocomplete="address2" class="form-control"
-                          placeholder="市町村"  />
+                          placeholder="市町村" />
                       </p>
                       <p>
                         <input type="text" name="address-line1" autocomplete="address-line1" class="form-control"
-                          placeholder="番地等"  />
+                          placeholder="番地等" />
                       </p>
                       <p>
                         <input type="text" name="address-line2" autocomplete="address-line2" class="form-control"
@@ -353,7 +356,7 @@
                     <label class="col-sm-3 col-form-label">メールアドレス </label>
                     <div class="col-md-5">
                       <p>
-                        <input type="email" name="email" autocomplete="email" class="form-control"  />
+                        <input type="email" name="email" autocomplete="email" class="form-control" />
                       </p>
                     </div>
                   </div>
