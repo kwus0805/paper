@@ -26,6 +26,9 @@
         <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href="./assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
         <link href="./assets/css/sample.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            Integrity="sha384-ggOyR0iXCbMQv3Xipma34MD + dH / 1fQ784 / j6cY /  iJTQUOhcWr7x9JvoRx = " anonymous">
+        <link rel="stylesheet" href="assets / css / avantui.css">
         <!-- CSS Just for demo purpose, don't include it in your project -->
         <link href="./assets/demo/demo.css" rel="stylesheet" />
     </head>
@@ -170,89 +173,112 @@
                 </nav>
                 <!-- mainpanel -->
                 <div class="content">
-                    <div class="card">
-                        <div class="col-md-10">
-                            <div class="tab-content text-center">
-                                <div class="tab-pane active" id="home">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead class="table-list-text">
-                                                <tr>
-                                                    <th> 名前</th>
-                                                    <th> グループ名</th>
-                                                    <th> 生年月日</th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">
-                                                        <div class="row">
-                                                            <div class="col-md-2 col-2">
-                                                                <div class="avatar">
-                                                                    <img src="img/hashimoto.jpg" alt="Circle Image"
-                                                                        class="img-circle img-no-padding img-responsive">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6 col-6">
-                                                                <td>橋本環奈</td>
-                                                                <td>第一高校バレー部</td>
-                                                                <td>1992.10.01</td>
-                                                                <br />
-                                                            </div>
-                                                    </li>
-                                                    <li class="list-group-item">
-                                                        <div class="row">
-                                                            <div class="col-md-2 col-2">
-                                                                <div class="avatar">
-                                                                    <img src="img/hashimoto.jpg" alt="Circle Image"
-                                                                        class="img-circle img-no-padding img-responsive">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6 col-6">
-                                                                橋本環奈
-                                                                <br />
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </tbody>
-                                    </div>
+                        <div class="col-md-12 mx-auto" style="padding: 1em;">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./assets/img/damir-bosnjak.jpg" alt="...">
                                 </div>
+                            <div class="card card-plain">
+                                <h4 class="group-title">第一高校　バレー部</h4>
+                                <div class="content table-responsive table-full-width"
+                                    style="padding: 0.5em; text-align:center;">
+                                    <table class="table table-hover" 　>
+                                        <thead>
+                                            <th>ID</th>
+                                            <th>名前</th>
+                                            <th>電話番号</th>
+                                            <th>生年月日</th>
+                                            <th>詳細</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>橋本環奈</td>
+                                                <td>090-1234-5678</td>
+                                                <td>1990/10/10</td>
+                                                <td><i class="fas fa-angle-double-right"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>蒼井優</td>
+                                                <td>090-2334-5678</td>
+                                                <td>1990/12/12</td>
+                                                <td><i class="fas fa-angle-double-right"></i></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>井上真央</td>
+                                                <td>090-9876-5432</td>
+                                                <td>1991/02/02</td>
+                                                <td><i class="fas fa-angle-double-right"></i></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>石原さとみ</td>
+                                                <td>090-5555-6666</td>
+                                                <td>1990/5/5</td>
+                                                <td><i class="fas fa-angle-double-right"></i></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>佐藤栞里</td>
+                                                <td>080-6666-7777</td>
+                                                <td>1990/6/8</td>
+                                                <td><i class="fas fa-angle-double-right"></i></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>上白石萌音</td>
+                                                <td>090-9999-8888</td>
+                                                <td>1990/7/7</td>
+                                                <td><i class="fas fa-angle-double-right"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
 
 
-                                <footer class="footer footer-black  footer-white ">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="credits ml-auto">
-                                                <span class="copyright">
-                                                    ©
-                                                    <script>
-                                                        document.write(new Date().getFullYear())
-                                                    </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </footer>
+                <footer class="footer footer-black  footer-white ">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="credits ml-auto">
+                                <span class="copyright">
+                                    ©
+                                    <script>
+                                        document.write(new Date().getFullYear())
+                                    </script>, made with <i class="fa fa-heart heart"></i> by Creative
+                                    Tim
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
 
-                                <!-- </div> -->
-                                <!--   Core JS Files   -->
-                                <script src="./assets/js/core/jquery.min.js"></script>
-                                <script src="./assets/js/core/popper.min.js"></script>
-                                <script src="./assets/js/core/bootstrap.min.js"></script>
-                                <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-                                <!--  Google Maps Plugin    -->
-                                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-                                <!-- Chart JS -->
-                                <script src="./assets/js/plugins/chartjs.min.js"></script>
-                                <!--  Notifications Plugin    -->
-                                <script src="./assets/js/plugins/bootstrap-notify.js"></script>
-                                <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-                                <script src="./assets/js/paper-dashboard.min.js?v=2.0.1"
-                                    type="text/javascript"></script>
-                                <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-                                <script src="./assets/demo/demo.js"></script>
+                <!-- </div> -->
+                <!--   Core JS Files   -->
+                <script src="./assets/js/core/jquery.min.js"></script>
+                <script src="./assets/js/core/popper.min.js"></script>
+                <script src="./assets/js/core/bootstrap.min.js"></script>
+                <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+                <!--  Google Maps Plugin    -->
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+                <!-- Chart JS -->
+                <script src="./assets/js/plugins/chartjs.min.js"></script>
+                <!--  Notifications Plugin    -->
+                <script src="./assets/js/plugins/bootstrap-notify.js"></script>
+                <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+                <script src="./assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+                <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+                <script src="./assets/demo/demo.js"></script>
     </body>
 
     </html>
