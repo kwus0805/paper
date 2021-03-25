@@ -111,7 +111,7 @@
                                     <span class="navbar-toggler-bar bar3"></span>
                                 </button>
                             </div>
-                            <a class="navbar-brand" href="javascript:;">イベント</a>
+                            <a class="navbar-brand" href="javascript:;">貰ったものリスト</a>
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                             aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -169,145 +169,273 @@
                 </nav>
                 <!-- mainpanel -->
                 <div class="content">
-                    <div class="col-md-12">
-                        <div class="card-deck text-center">
-                            <div class="card">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card card-user">
+                                <div class="image">
+                                    <img src="./assets/img/damir-bosnjak.jpg" alt="...">
+                                </div>
                                 <div class="card-body">
-                                    <div class="col-md-6 col-6">
-                                        <div class="avatar">
-                                            <img src="img/ayano.jpg" alt="Circle Image"
-                                                class="img-circle img-no-padding img-responsive">
+                                    <div class="author">
+                                        <a href="#">
+                                            <img class="avatar border-gray" src="./assets/img/mike.jpg" alt="...">
+                                            <h5 class="title">Chet Faker</h5>
+                                        </a>
+                                    </div>
+                                    <!-- </div> -->
+                                    <form>
+                                        <div　class="gift-detail">
+                                            <div class="row">
+                                                <div class="col-md-5 pr-1">
+                                                    <div class="form-group">
+                                                        <label>日付</label>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="2021/01/01" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-5 pr-1">
+                                                    <div class="form-group">
+                                                        <label>贈った相手</label>
+                                                        <input type="text" class="form-control" placeholder="山田花子" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 px-1">
+                                                    <div class="form-group">
+                                                        <label>間柄</label>
+                                                        <input type="text" class="form-control" placeholder="友人" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-5 pr-1">
+                                                    <div class="form-group">
+                                                        <label>イベント名</label>
+                                                        <input type="text" class="form-control" placeholder="花子誕生日" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-5 pr-1">
+                                                    <div class="form-group">
+                                                        <label>贈ったもの</label>
+                                                        <input type="text" class="form-control" placeholder="香水" />　
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <fieldset disabled>
+                                                <br>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" value="">
+                                                        お返し
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-5 pr-1">
+                                                        <div class="form-group">
+                                                            <label>何を ?</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label>メモ</label>
+                                                        <textarea
+                                                            class="form-control textarea">花子の誕生日祝いに同期からまとめて贈ったもの</textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="update ml-auto mr-auto">
+                                                    <button type="submit" class="btn btn-primary btn-round">編集</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                                <div class="card-img-overlay">
-                                                    <div>綾野剛</div>
-                                        </div>
-                                        <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                        <p class="card-text">[ここに品物が入ります]</p>
-                                        <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                        <a href="#" class="btn btn-primary">GO</a>
-                                            
-                                        </div>
-                                    </div> -->
-                                     <div class="col-md-6 col-6"> 
-                                        <div>綾野剛</div>
-                                        </div>
-                                        <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                        <p class="card-text">[ここに品物が入ります]</p>
-                                        <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                        <a href="#" class="btn btn-primary">GO</a>
-                                    
+                                    </form>
                                 </div>
                             </div>
-                        
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
-                            </div>
                         </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
+
+                        <div class="col-md-4">
+                            <div class="card card-group">
+                                <div class="card-header">
+                                    <h4 class="card-title">他に参加しているイベント</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled team-members">
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-2 col-2">
+                                                    <div class="avatar">
+                                                        <img src="./assets/img/faces/ayo-ogunseinde-2.jpg"
+                                                            alt="Circle Image"
+                                                            class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    田中一郎
+                                                    <i class="fas fa-caret-right"></i>ぬいぐるみ
+                                                    <br />
+                                                    <span class="text-group"><small>田中家親族</small></span>
+                                                </div>
+                                                <div class="col-md-4 col-4 text-right">
+                                                    <button class="btn btn-primary rounded-pill">イベントへ</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-2 col-2">
+                                                    <div class="avatar">
+                                                        <img src="./assets/img/faces/joe-gardner-2.jpg"
+                                                            alt="Circle Image"
+                                                            class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    山田花子
+                                                    <br />
+                                                    <span class="text-group"><small>第一高校バレー部</small></span>
+                                                </div>
+                                                <div class="col-md-4 col-4 text-right">
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-user"></i></btn>
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-plus"></i></btn>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-2 col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/tanaka.jpg" alt="Circle Image"
+                                                            class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="col-ms-6 col-6">
+                                                    田中みな実
+                                                    <br />
+                                                    <span class="text-group"><small>田中家親族</small></span>
+                                                </div>
+                                                <div class="col-md-4 col-4 text-right">
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-user"></i></btn>
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-plus"></i></btn>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-2 col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/ayano.jpg" alt="Circle Image"
+                                                            class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    綾野剛
+                                                    <br />
+                                                    <span class="text-group"><small></small></span>
+                                                </div>
+                                                <div class="col-md-4 col-4 text-right">
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-user"></i></btn>
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-plus"></i></btn>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-2 col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/sasaki.jpg" alt="Circle Image"
+                                                            class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    佐々木希
+                                                    <br />
+                                                    <span class="text-group"><small></small></span>
+                                                </div>
+                                                <div class="col-md-4 col-4 text-right">
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-user"></i></btn>
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-plus"></i></btn>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-2 col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/hashimoto.jpg" alt="Circle Image"
+                                                            class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    橋本環奈
+                                                    <br />
+                                                    <span class="text-group"><small>第一高校バレー部</small></span>
+                                                </div>
+                                                <div class="col-md-4 col-4 text-right">
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-user"></i></btn>
+                                                    <btn class="btn btn-sm btn-outline-success btn-round btn-icon"><i
+                                                            class="fas fa-plus"></i></btn>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <br />
-                    <div class="card-deck text-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">綾野剛</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">から</h6>
-                                <p class="card-text">[ここに品物が入ります]</p>
-                                <h6 class="card-text mb-2 text-muted"> を貰いました</h6>
-                                <a href="#" class="btn btn-primary">GO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br />
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
 
-
-
-
-
-        <footer class="footer footer-black  footer-white ">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="credits ml-auto">
-                        <span class="copyright">
-                            ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
-                        </span>
+            <footer class="footer footer-black  footer-white ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="credits ml-auto">
+                            <span class="copyright">
+                                ©
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
 
-        <!-- </div> -->
-        <!--   Core JS Files   -->
-        <script src="./assets/js/core/jquery.min.js"></script>
-        <script src="./assets/js/core/popper.min.js"></script>
-        <script src="./assets/js/core/bootstrap.min.js"></script>
-        <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-        <!--  ・・・ogle Maps Plugin    -->
-        <script src="https://maps.・・・ogleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-        <!-- Chart JS -->
-        <script src="./assets/js/plugins/chartjs.min.js"></script>
-        <!--  Notifications Plugin    -->
-        <script src="./assets/js/plugins/bootstrap-notify.js"></script>
-        <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-        <script src="./assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
-        <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-        <script src="./assets/demo/demo.js"></script>
+            <!-- </div> -->
+            <!--   Core JS Files   -->
+            <script src="./assets/js/core/jquery.min.js"></script>
+            <script src="./assets/js/core/popper.min.js"></script>
+            <script src="./assets/js/core/bootstrap.min.js"></script>
+            <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+            <!--  ・・・ogle Maps Plugin    -->
+            <script src="https://maps.・・・ogleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+            <!-- Chart JS -->
+            <script src="./assets/js/plugins/chartjs.min.js"></script>
+            <!--  Notifications Plugin    -->
+            <script src="./assets/js/plugins/bootstrap-notify.js"></script>
+            <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+            <script src="./assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+            <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+            <script src="./assets/demo/demo.js"></script>
     </body>
 
     </html>
